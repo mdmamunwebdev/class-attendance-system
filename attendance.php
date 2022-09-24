@@ -51,7 +51,7 @@ if ($session == true) {
   $rowstable    = mysqli_num_rows($connecttable);
 
   if ($connecttable) {
-    if ($rowstable = !0) {  ?>
+    if ( $rowstable > 0 ) {  ?>
 
       <table class="mt-1 table table-hover table-light border rounded-sm table-striped">
         <thead class="">
@@ -152,7 +152,7 @@ if ($session == true) {
 
 
   <?php } else {
-      echo "<h1 style='color:tomato; text-align:center; text-transform:uppercase;'>has no record in database!!</h1>";
+      echo "<div class='text-center text-uppercase px-5 py-3 mt-5 font-weight-bold border border-dark bg-secondary'>no data found ! </div>";
     }
   } else {
   }
