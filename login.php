@@ -209,7 +209,7 @@
 
     <div class="login">
         <div class="image">
-            <img src="./assets/img/R.jfif" alt="">
+            <img src="./assets/img/delta.jpg" alt="">
         </div>
         <div class="right">
             <h2 class="login_head">Teacher login </h2>
